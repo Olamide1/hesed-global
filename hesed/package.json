@@ -1,13 +1,14 @@
 {
   "name": "hesed",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "hased is a mental help support system where you can talk to a friend about anything bothering you",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["hased", "you", "health", "help", "mental", "friend", "love", "peace", "support", "talk"],
+  "author": "@theAkomolafe, @wachukxs, @edenuba",
   "license": "ISC",
   "dependencies": {
     "@pusher/chatkit-server": "^2.1.0",
